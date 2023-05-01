@@ -17,9 +17,8 @@ section{
     display: flex;
 }
 section .nav-menu{
-    padding: 146px 0;
+    padding-top: 146px;
     width: 30%;
-    height: 100vh;
     background: #2D3E4F;
     text-transform: uppercase;
 }
@@ -43,12 +42,18 @@ section .nav-menu a{
     color: #fff;
     text-align: center;
 }
+.icons{
+    margin-top: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+
+
 section .main-project{
     width: 100%;
     height: 100%;
 }
-
-
 .container{
     width: 920px;
     margin: 0 auto;
@@ -59,6 +64,8 @@ section .main-project{
     background-image: url(/img/IMAGE\ \(4\).png);
 }
 .welcome{
+    margin-top: 305px;
+    margin-bottom: 325px;
     text-align: center;
     text-transform: uppercase;
 }
