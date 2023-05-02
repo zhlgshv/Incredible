@@ -125,3 +125,36 @@ section .main-project{
     font-weight: 400;
     color: rgba(115, 115, 115, 0.74);
 }
+.styles{
+    margin: 75px 0;
+}
+.heading-styles{
+    margin: 32px 0;
+    display: flex;
+    gap: 21px;
+    justify-content: space-between;
+}
+.heading-styles img{
+    padding: 0 122px 0 10px;
+}
+.heading-icons h3{
+    margin: 4px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #313131;
+}
+.heading-icons p{
+    margin: 7px 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.74);
+}
+.heading-icons a{
+    
+}
