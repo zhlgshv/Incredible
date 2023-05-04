@@ -64,8 +64,8 @@ section .main-project{
     background-image: url(/img/IMAGE\ \(4\).png);
 }
 .welcome{
-    margin-top: 305px;
-    margin-bottom: 325px;
+    padding-top: 305px;
+    padding-bottom: 325px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -156,5 +156,39 @@ section .main-project{
     color: rgba(0, 0, 0, 0.74);
 }
 .heading-icons a{
-    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #CF404D;
+}
+.put{
+    background-color: #CF404D;
+}
+.main-project section{
+    display: block;
+}
+.put .container{
+    padding: 44px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.put .container h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 36px;
+    color: #fff;
+}
+.put .container button{
+    padding: 10px 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    background-color: #CF404D;
+    border: 2px solid #fff;
+    border-radius: 4px;
 }
