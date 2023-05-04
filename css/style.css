@@ -192,3 +192,36 @@ section .main-project{
     border: 2px solid #fff;
     border-radius: 4px;
 }
+
+
+
+.lightbox{
+    text-align: center;
+}
+.lightbox-img{
+    margin: 72px 0;
+    width: 925px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.lightbox h2{
+    margin-top: 57px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #313131;
+}
+.lightbox p{
+    margin: 22px 0;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(115, 115, 115, 0.74);
+}
