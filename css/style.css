@@ -301,7 +301,11 @@ section .main-project{
     transition: .5s;
 }
 
-
+.lin{
+    width: 100%;
+    height: 1px;
+    background: #e1e1e1;
+}
 
 footer h2{
     margin: 23px 0 28px 0;
