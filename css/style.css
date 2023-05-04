@@ -41,11 +41,17 @@ section .nav-menu a{
     line-height: 20px;
     color: #fff;
     text-align: center;
+    transition: .5s;
+}
+section .nav-menu a:hover{
+    transition: .5s;
+    color: #CF404D;
 }
 .icons{
-    margin-top: 200%;
-    padding: 10px;
-    border: 1px solid #fff;
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    margin-top: 670%;
 }
 
 
@@ -181,6 +187,7 @@ section .main-project{
     color: #fff;
 }
 .put .container button{
+    cursor: pointer;
     padding: 10px 22px;
     font-style: normal;
     font-weight: 400;
@@ -254,7 +261,8 @@ section .main-project{
 }
 .contact-mail{
     width: 583px;
-    margin: 65px auto;
+    margin: 0 auto;
+    padding-bottom: 79px;
 }
 .contact-mail .name-email{
     display: flex;
@@ -291,4 +299,16 @@ section .main-project{
 .contact-mail button:hover{
     cursor: pointer;
     transition: .5s;
+}
+
+
+
+footer h2{
+    margin: 23px 0 28px 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.74);
 }
